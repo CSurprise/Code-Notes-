@@ -1,0 +1,9 @@
+
+h1 { text-align: center;
+  color:Blue;
+}
+h3 {color: #ff3ce7;}
+body {font-size: 18px}
+#bold {font-weight: bold;}
+#italic {font-style: italic;}
+.font {font-family: "Comic Sans MS";}

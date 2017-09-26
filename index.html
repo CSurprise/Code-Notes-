@@ -1,0 +1,396 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+      <title> Gio's code </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <div>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Gio's Code</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HTML <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">word</a></li>
+                <li><a href="#">word</a></li>
+                <li><a href="#">word</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+
+
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CSS<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<div class="container">
+  <div class=col-md-6>
+
+    <h1> The Basics of HTML</h1>
+      <p>HTML-Hyper Text Markup Language</p>
+      <p>The language used to create the web pages you visit everyday.
+      (It is a logical way to structure content for webpages.)</p>
+      <p>A Markup Language is a computer language that defines the structure
+      and presentation of raw text</p>
+      <p> "!doctype html" *** This must be at the beginning to help the server
+      identify the html file</p>
+      <p> After beginning the code with "!doctype html" we must add "html" and
+      closing of the file with "/html" or else the code wil not show up</p>
+  </div>
+</div>
+<div class="col-md-6">
+
+
+    <div> class="container"</div>
+    <h1> Standardized Vocab </h1>
+    <ol>
+      <li>Angle Brackets- In HTML, the characters < and > are known as angle
+      brackets</li>
+      <li>Element- The code that lives inside of the < > angle brackets</li>
+      <li>Opening Tag- The first opening tag to start an HTML element</li>
+      <li>Closing Tag- The second (or closing) tag used to end an HTML element
+        closing tags have a forward slash inside of them.</li>
+      <p>Example: Opening "html" Closing "/html"</p>
+      <li>Attribute- Provides even more info. about an elements content. They
+      live in the opening tag of an element.</li>
+      <p>Attributes are made of two things, the value and the name of the
+        attribute</p>
+      <li>Hyperlink- A link</li>
+      <li>Type- Describes the document you are linking to. Ex. Value=text/css</li>
+      <li>rel- Describes the relationship between the 2 files, (If you are linking
+        to a style sheet like CSS the value is stylesheet) Ex. rel=stylesheet</li>
+      <li>UX= User-Experience</li>
+      <li>Foreground- the element.</li>
+      <li>Background- behind the element</li>
+      <li>Typography- The art of writing</li>
+      <li>Serif: The letters in these fonts have extra details on the ends
+      of each letter and traditionally used in print designs.</li>
+      <li>Sans-Serif: Letters do not have extra details just straight flat edges.
+      This looks better on low-resolution screens</li>
+      <li>Px- Represents the unit of pixels. A pixel is a small point on a
+      screen and most monitors have a resolution of 72 pixels per inch. Making a pixel 1/72 of an in.
+    <br>p {font-size: 18px;}</li>
+      <li>em- pronounced just as it looks, "em". A em is equal to the width of the letter
+    m. Ems are a relative unit of measurement. They change the size of text
+  relative to the parent element's size of text <br> p {font-size: 1.3em;}</li>
+      <li>%- Based on the default size of pixels in a browser <br> p {font-size: 150%;}</li>
+      <img id=chart" src="https://s3.amazonaws.com/codecademy-content/courses/web-101/htmlcss1-diagram__fontsizings.svg"
+      width="600px">
+      <li>ID- Intended to label unique elements in an HTML file. No two
+        HTML elements should ever share the same ID</li>
+     </ol>
+   </div>
+  </div>
+
+    <h1>Web Browser Basics</h1>
+      <p>Must have a "head" to show what page you are on. Once you have a "head"
+      put in  "title" whatever "/title" </p>
+      <p>Then in order for things to appear on the website a "body" is required
+      "body" Fluff "/body"</p>
+    <h1>HTML Elements</h1>
+    <h3>Heading sizes</h3>
+      <p>There are multiple heading sizes that can be used on a webpage in
+      HTML. They range from H1 to H6 from largest to smallest</p>
+      <p>Headers are usually used to grasp a readers attention with a few words.
+      If you want to put words in paragrapgh format use "p". This is great for
+    expanding the amount of words on your webpage. </p>
+    <h3>Lists</h3>
+      <p>Often times you will want to display content in a list. Im HTML you
+      will want to use an unordered list "ul" for bullet points or an ordered
+    "ol" for numbered</p>
+      <p>However these elements cannot hold raw text and cannot format text
+      because of this</p>
+      <p>Individual list items must be added to the list by using the listed
+      item element "li"</p>
+    <h3>Hyper-Links</h3>
+      <p>you can add links to a webpage by adding the anchor element "a" with
+      URL in between the opening and closing tag</p>
+      <p>However! You can not use the anchor element and expect the link to work
+      without an attribute. The href attribute</p>
+      <p>For anchor elements (a hyperlink), name of the attribute is href and
+      it's value must be set to the URL of the page you'd like the user to
+    visit</p>
+    <p>Example: "a href=https://www.wikipedia.org" this is wikipedia! "/a"</p>
+    <p>For a link that leads to a different window/tab, we use the target attribute.
+    </p>
+    <p>The target attribute requires a value of _blank . Like all attributes
+    this should be in the opening tag of your anchor element</p>
+    <p>For example: "a href=https://www.wikipedia.org target=_blank" Wiki! "/a"</p>
+    <h3>Pictures</h3>
+    <p>If we wanted images? we would use the image element "img/" this element
+       is special because it is self closing</p>
+    <p>The image element requires the element src (sort of like href) with the
+    value = to the URL of the picture</p>
+    <p>"img src=https://picture.url /"</p>
+    <h3>Visually impaired</h3>
+    <p>HTML supports the visually impaired with the alt attribute</p>
+    <p>The alt attribute is applied specifically to the img element and it's
+    value should be a descripton of the picture</p>
+    <p>An example would be : "img src=https://SpidermanPicture alt= a picture of
+      spiderman /"</p>
+    <p>If the image provides no important info. then an alt should not be applied</p>
+    <h3>Hyperlinking with Images</h3>
+    <p>If we want to add a hyperlink to an image we must put the image element
+    INSIDE of the anchor element</p>
+    <p>For example: "a href=URL target=_blank" "img src=PictureUrl
+      alt=Description /" "/a"</p>
+      <a href="https://google.com" target="_blank"> <img src="https://pmcvariety.files.wordpress.com/2014/04/08-spider-man-2002.jpg?w=300&h=240&crop=1" alt="Spiderman"></a>
+      <h3>Spacing</h3>
+      <p>In HTML space does nothing except more your site look sexier.</p>
+      <p>Even though spacing will ont work in your code, you can space things
+      on a webpage by using the line break element "br /" anywhere , <br />
+      it is self-closing and will show a line break</p>
+      <h3>Comments</h3>
+      <p>Comments are specifically for your code and serves for one of two things</p>
+      <ol>
+        <li>They help you (and others) understand your code and if you decide to
+        come back and review it later</li>
+        <li>Allow to experiment with new code without deleting the old one</li>
+      </ol>
+      <p>Putting a comment in your code would look like this "!-- comment --"</p>
+      <h1>CSS Coding</h1>
+      <p>With the basics of html that we now possess the website will still
+      very plain and boring</p>
+      <p>To make websites more visually appealing we use CSS (Cascading Style Sheets)
+      a language used to style HTML content. CSS is used to modify:</p>
+      <ul>
+        <li>colors</li>
+        <li>font type</li>
+        <li>font size</li>
+        <li>shadows</li>
+        <li>images</li>
+        <li>element positioning</li>
+        <li>Et cetera</li>
+      </ul>
+      <p>Even though CSS is a different language, it is still possible to use in HTML
+      due to the "style" element</p>
+      <h3>The Style Element</h3>
+      <p>This element allows you to write CSS code between its opening and closing tags</p>
+      <p>The style element must be inside the "head", once "style" is placed inside of the web page's
+      head, we can begin writing in code</p>
+      <p>However, this mixing of code is very confusing and can result in the risk of
+      1 or 2 things</p>
+      <ol>
+        <li>Creating a larg HTML file that is both difficult to read and maintain.
+        This could result in inefficient work flow</li>
+        <li>Maintaining a clear distinction between web page structure (html) and web page
+        aesthetics</li>
+      </ol>
+      <h3>Styling with a CSS file</h3>
+      <p>To fix having too much clutter we can seperate the styling (CSS) from
+      the index.html file to the style.css file.</p>
+      <p>However just putting code in a seperate file will not work, the index
+        file must be linked with style.css</p>
+      <p>In order to do this we use the "link" element. This has to be put in the
+      head of the HTML file, it is a self closing tag and REQUIRES href (like the anchor)
+      and the value is = to to the address or path to the CSS file. </p>
+      <h3>Linking</h3>
+      <p>When linking a html and css file together the "link" element will look
+      lke:</p>
+      <p>"link href=/style.css type=text/css rel=stylesheet"</p>
+      <h3>Actually Styling</h3>
+      <p>To first start styling we have an html element we must select the element
+      in the css profile</p>
+      <p>For example to style a "p" element the syntax in the css would be p { }</p>
+      <p>In this example ALL paragraph elements are selected. The seletor is the HTML tag
+      (in this case p) but without angle brackets.</p>
+      <p>To actually style the element you need to specify two things.</p>
+      <ol>
+        <li>Property- The property you would like to style of the element
+        (size, color, font size, etc.)</li>
+        <li>Value- The value of the property (18px for size, Blue for color, etc.)</li>
+      </ol>
+      <p>h1 {color:Blue;}</p>
+      <p>h1 is the selector, color is the property, Blue is the value, and the semicolon
+      is used to end the declaration</p>
+      <p>The line "color:Blue" is a declaration. Declarations consist of a property
+      and a value.</p>
+      <p>The whole line of code is known as a CSS Rule. A CSS rule consists of
+      the selector and all declarations in the selector.</p>
+      <h3>Grouping</h3>
+      <p>If multiple elements would like to be selected for the same changes
+      then simply add them to the selector... h1, p {color:Blue;}</p>
+      <p>When all elements on a webpage require the same styling, it is often
+      more efficient to set the styling using the universal selector *, Afterwards
+    you can modify (or remove) that styling for specific elements that don't require
+  it</p>
+  <h3>Commenting in CSS</h3>
+      <p>Just like HTML you can leave comments in a CSS file</p>
+      <p>/* comment */</p>
+      <p>This will accomplish the samething html commenting does.</p>
+      <h1>Colors</h1>
+      <p>There are 2 distinctions between what color will affect.</p>
+      <ol>
+        <li>The foreground color.</li>
+        <li>The background color</li>
+      </ol>
+      <p>In CSS, these 2 designs can be styled by:</p>
+      <ol>
+        <li>color: This styles an elements foreground.</li>
+        <li>background-color: This styles an elements background</li>
+      </ol>
+
+      <p>Ex: h1 {color:Red; <br /> background-color:Blue; <br>}</p>
+      <p>This is the appropriate way to code in CSS (even though it looks odd)</p>
+      <p>There are 147 named colors that can be used just google them.</p>
+      <h3>RGB Colors</h3>
+      <p>Even though there are only 147 full colors we would not be taking full
+      advantage of color without using RGB</p>
+      <p>RGB(Red,Green,Blue) offers the option of 16,777,216 million possible colors</p>
+      <p>Each color in RGB can be one of 256 possible values. (They range from 0 to 255)</p>
+      <p>Ex. h1 {color:rgb(123,20,233);}</p>
+      <h3>Hex Color</h3>
+      <p>You can also use hex color codes but they are basically the same thing as RGB
+      just a different way to write color i.e. h1 {color: #AA33BB or #452F73}</p>
+      <h3>HSL</h3>
+      <p>A new way to specify colors is through HSL coloring.</p>
+      <ul>
+        <li>Hue: The technical term for color. In HSL, hue is represented on a
+        color wheel. It can have values from 0-360</li>
+        <li>Saturation: The amount of gray in a given color. In HSL, saturation
+        is specified using percents between 0% to 100%, 0% being a very light shade of gray
+        and 100% being full saturation</li>
+        <li>Lightness: The amount of white in a given color ranging from 0% to
+        100%. 0% being black, 50% normal, and 100% white</li>
+        <p>For example {color: hsl(182,20%,50%)}</p>
+      </ul>
+      <h3>Opacity</h3>
+      <p>Opacity is the measure of how transparent a color is.</p>
+      <p>RGB is very simialar to hex color except RGB can add opacity to it by
+      doing rgba() instead of just rgb()</p>
+      <p>The a character in rgba is known as the alpha value. It represents the
+      opacity of color. The value ranges from 0-1 inclusively</p>
+      <p>h1 { color:rgba(123,88,9,.5);}</p>
+      <p>the .5 represents 50% opacity which is normal color. </p>
+      <p>Opacity can also be used with HSLA</p>
+      <h3>Browser issues</h3>
+      <p>Not all browsers cn support all the fancy things of CSS. (Such as opacity)</p>
+      <p>Because of this we make backups for the file to read. <br>
+      i.e. h1 {rgb(1,2,3) <br> rgba(1,2,3,.4)}</p>
+      <p>The browser will always read the last line and if it cannot then it
+      will open the line of code before it. A.K.A. the backup</p>
+      <h3>Font</h3>
+      <div class="font">
+      <p>The phrase "Type of Font" refers to the technical term typeface, or font
+      family. <br> To change the type of font we use:</p>
+      <p>Example: h1 {font-family:Garamond;}<br> name of the font is always capital
+      and when using a font with more than one word the words are in quotation i.e.
+    "Times New Roman"</p>
+    <p>When setting new font it is important to keep this in mind</p>
+    <ol>
+      <li>The font specified must be installed on the user's computer in order
+      for the font to display.</li>
+      <li>the default typeface for HTML is Times New Roman.</li>
+      <li>It is good practice to limit the number of typefaces to 2 or 3 on a site.</li>
+    </ol>
+    <p> Like color, sometimes a browser cannot open certain fonts and fallback
+    fonts are needed. Most computers only hsve a few pre-installed fonts.</p>
+    <p>To use fall-back fonts, the following syntax is required: <br> h1 {font-family: Garamond, Times, serif;}</p>
+    <p>The rule above states to use Garamond font, if that is not availabe
+    then uses the Times font, if that is not availabe use any serif font pre-installed
+    on the computer </p>
+    <p>Luckily new fonts are constantly being centralized in directories available
+    for public use. </p>
+    <p>For example: With google fonts you can use the URL for a certain font
+    and link it to make it available to use.</p>
+    <p>"head"<br>"link href=font.url type=text/css rel=stylesheet" "/head"</p>
+    <p>This makes the font of the URL available to use in CSS as you normally would</p>
+    </div>
+    <h3>Font Size</h3>
+    <p>Another way to customize font is through it's size. <br> p {font-size: 18px;} </p>
+    <p>In the example font size is set to 18px. px is a unit of measurement such as ft or in. px is for pixels</p>
+    <h3>Line Spacing</h3>
+    <p>To avoid words being too closely cluttered together and hard to read we have "line-height"
+    to modify the spacing between lines of text <br>p {line-height:1.5em;}</p>
+    <p>When the line height of an element is modified, you are manipulating
+    the leading (pronounced ledding) of the font. When the line height is increased,
+    the spacing between lines of text increases, which can make text easier to read.</p>
+    <p>Line height can be modified with px or ems but ems are preferred</p>
+    <h3>Spacing in general</h3>
+    <p>You can also space words or letters in the same way as line spacing by
+    using the "word-spacing" or "letter-spacing" properties</p>
+    <p>The default space between words in .25em but it is not common to increase the length</p>
+    <p>Also changing the length of letter spacing is called kerning</p>
+    <h3>Text</h3>
+    <p>A common practice found on websites is bolding.</p>
+    <p id="bold">In CSS the "font-weight" property turns boldness on or off <br>
+    p {font-weight: bold;} or p {font-weight: normal;}</p>
+    <p>We can also change boldness using numbers starting from 100 every 100 to 900</p>
+    <p id="italic">You can also italicize words with the font-style property <br> h3 {font-style: italic or normal;}</p>
+    <p>Or you can change letters from all uppercare or lowercase with the text-transform property
+    <br> h1 {text-transfrom:uppercase or lowercase;}</p>
+    <p>Text will always appear on the left side but to be moved use "text-align" <br>
+    h1 {text-align:left center or right;}</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
